@@ -12,3 +12,7 @@ for (int c = 1; c < n; c++) {
 cout << c << endl;
 }
 
+do {
+  cout << "How may numbers are you going to type ";
+  cin>> n;
+} while (n < 1 || n > 10);
